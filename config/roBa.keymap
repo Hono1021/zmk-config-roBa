@@ -78,10 +78,10 @@
 
         FUNCTION {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5                                                                  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans    &trans                               &kp LANG_ZENKAKUHANKAKU  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &kp LWIN  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS    &kp LANGUAGE_5           &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans    &trans                               &trans                   &trans                          &kp F12
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5                                             &kp F1     &kp F2          &kp F3          &kp F4     &kp F5
+&trans  &trans  &trans  &trans  &trans    &trans          &kp LANG_ZENKAKUHANKAKU  &kp F6     &kp F7          &kp F8          &kp F9     &kp F10
+&trans  &trans  &trans  &trans  &kp LWIN  &kp CAPSLOCK    &kp LANGUAGE_5           &kp LANG6  &kp LANGUAGE_8  &kp LANGUAGE_9  &kp LANG7  &kp F11
+&trans  &trans  &trans  &trans  &trans    &trans          &trans                   &trans                                                &kp F12
             >;
         };
 
