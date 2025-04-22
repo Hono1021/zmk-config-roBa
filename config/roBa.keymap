@@ -68,7 +68,7 @@
         default_layer {
             bindings = <
 &kp Q      &kp W           &kp E         &kp R                   &kp T                                                                       &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A      &kp S           &kp D         &kp F                   &kp G             &kp LS(LG(S))                    &kp LS(INTERNATIONAL_1)  &kp H        &kp J  &kp K      &kp L    &kp AMPERSAND
+&kp A      &kp S           &kp D         &kp F                   &kp G             &kp TAB                          &kp LS(INTERNATIONAL_1)  &kp H        &kp J  &kp K      &kp L    &kp AMPERSAND
 &kp Z      &kp X           &kp C         &kp V                   &kp B             &kp SQT                          &kp SEMICOLON            &kp N        &kp M  &kp COMMA  &kp DOT  &kp AT_SIGN
 &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &lt_to_layer_0 6 SPACE  &lt 2 LANGUAGE_2  &lt_to_layer_0 3 LANGUAGE_1      &kp BACKSPACE            &lt 1 ENTER                             &kp DEL
             >;
@@ -87,10 +87,10 @@
 
         NUM {
             bindings = <
-&kp MINUS  &kp N7          &kp N8        &kp N9        &kp COLON                                          &kp EQUAL          &kp PLUS          &kp PLUS  &kp ASTERISK     &kp LEFT_PARENTHESIS
-&kp SLASH  &kp NUMBER_4    &kp N5        &kp NUMBER_6  &kp DOUBLE_QUOTES  &kp LEFT_WIN      &kp SLASH     &kp EXCLAMATION    &kp LEFT_BRACKET  &kp HASH  &kp DOLLAR       &kp PERCENT
-&kp N0     &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD         &kp UNDER         &kp QUESTION  &kp RIGHT_BRACKET  &kp BACKSLASH     &kp A     &kp RIGHT_BRACE  &kp PIPE
-&kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &trans        &trans             &trans            &kp PAGE_UP   &kp PAGE_DOWN                                                   &kp SLASH
+&kp MINUS  &kp N7          &kp N8        &kp N9        &kp COLON                                             &kp EQUAL          &kp PLUS          &kp LANGUAGE_3  &kp ASTERISK     &kp LEFT_PARENTHESIS
+&kp SLASH  &kp NUMBER_4    &kp N5        &kp NUMBER_6  &kp DOUBLE_QUOTES  &kp LEFT_WIN      &kp PRINTSCREEN  &kp EXCLAMATION    &kp LEFT_BRACKET  &kp HASH        &kp DOLLAR       &kp PERCENT
+&kp N0     &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD         &kp UNDER         &kp QUESTION     &kp RIGHT_BRACKET  &kp BACKSLASH     &kp SLASH       &kp RIGHT_BRACE  &kp PIPE
+&kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &trans        &trans             &trans            &kp PAGE_UP      &kp PAGE_DOWN                                                         &kp CAPSLOCK
             >;
         };
 
