@@ -89,10 +89,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W           &kp E         &kp R                        &kp T                                                            &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A      &kp S           &kp D         &kp F                        &kp G        &kp TAB                          &kp JP_UNDERSCORE  &kp H        &kp J  &kp K      &kp L    &kp SQT
-&kp Z      &kp X           &kp C         &kp V                        &kp B        &kp COLON                        &kp JP_COLON       &kp N        &kp M  &kp COMMA  &kp DOT  &kp JP_YEN
-&kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &lt_to_layer_0 6 LANGUAGE_2  &lt 2 SPACE  &lt 3 JP_HANZEN                  &kp BACKSPACE      &lt 1 ENTER                             &kp DEL
+&kp Q      &kp W           &kp E         &kp R             &kp T                                                            &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A      &kp S           &kp D         &kp F             &kp G        &kp TAB                          &kp JP_UNDERSCORE  &kp H        &kp J  &kp K      &kp L    &kp SQT
+&kp Z      &kp X           &kp C         &kp V             &kp B        &kp COLON                        &kp JP_COLON       &kp N        &kp M  &kp COMMA  &kp DOT  &kp JP_YEN
+&kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &lt 6 JP_HANZEN   &lt 2 SPACE  &trans                           &kp BACKSPACE      &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -109,7 +109,7 @@
 
         NUM {
             bindings = <
-&kp kp JP_EQUAL  &trans          &trans        &trans  &kp JP_HANZEN                                  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0     &kp JP_EQUAL
+&kp JP_EQUAL     &trans          &trans        &trans  &kp JP_HANZEN                                  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0     &kp JP_EQUAL
 &trans           &trans          &trans        &trans  &trans         &kp LS(LG(S))      &kp MINUS    &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6  &kp JP_ASTERISK  &kp SLASH
 &trans           &trans          &trans        &trans  &trans         &trans             &kp JP_PLUS  &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp COMMA        &kp DOT
 &kp LCTRL        &kp LEFT_SHIFT  &kp LEFT_ALT  &trans  &trans         &trans             &kp PAGE_UP  &kp PAGE_DOWN                                               &kp JP_PIPE
