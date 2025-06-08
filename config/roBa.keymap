@@ -91,7 +91,7 @@
             bindings = <
 &kp Q      &kp W           &kp E         &kp R            &kp T                                               &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A      &kp S           &kp D         &kp F            &kp G        &kp TAB             &kp JP_UNDERSCORE  &kp H        &kp J  &kp K      &kp L    &kp SQT
-&kp Z      &kp X           &kp C         &kp V            &kp B        &kp COLON           &kp JP_COLON       &kp N        &kp M  &kp COMMA  &kp DOT  &kp JP_YEN
+&kp Z      &kp X           &kp C         &kp V            &kp B        &kp SEMI            &kp JP_COLON       &kp N        &kp M  &kp COMMA  &kp DOT  &kp JP_YEN
 &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &lt 6 JP_HANZEN  &lt 2 SPACE  &lt 3 CAPSLOCK      &kp BACKSPACE      &lt 1 ENTER                             &kp DEL
             >;
 
@@ -129,10 +129,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                        &trans  &trans    &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &mkp MB3      &trans  &trans  &mkp MB1  &trans  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans        &trans  &trans  &trans    &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans        &trans  &trans                              &trans
             >;
         };
 
