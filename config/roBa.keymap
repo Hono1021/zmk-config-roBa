@@ -101,7 +101,7 @@
         FUNCTION {
             bindings = <
 &kp F1   &kp F2   &kp F3  &kp F4  &kp F5                                             &kp HASH       &kp JP_AMPERSAND  &kp MINUS        &kp JP_TILDE   &kp JP_AT
-&kp F6   &kp F7   &kp F8  &kp F9  &kp F10        &trans               &kp JP_LPAREN  &kp JP_RPAREN  &kp JP_LBRACKET   &kp JP_RBRACKET  &kp JP_LBRACE  &kp JP_LBRACE
+&kp F6   &kp F7   &kp F8  &kp F9  &kp F10        &trans               &kp JP_LPAREN  &kp JP_RPAREN  &kp JP_LBRACKET   &kp JP_RBRACKET  &kp JP_LBRACE  &kp JP_RBRACE
 &kp F11  &kp F12  &trans  &trans  &kp JP_DQUOTE  &kp JP_QUOTE         &trans         &trans         &trans            &trans           &trans         &trans
 &trans   &trans   &trans  &trans  &kp QUESTION   &kp EXCLAMATION      &trans         &trans                                                           &trans
             >;
